@@ -1,0 +1,110 @@
+html{
+	margin:0 auto;
+}
+.container{
+	display:flex;
+}
+
+.container div{
+	flex:1;
+}
+
+.container h1 {
+ flex:1;
+ text-align:center;
+ font-family:Comic Sans MS;
+	
+}
+
+body{
+	background-color:black;
+}
+#banner{
+	background-image:url("Images/jamaica_flag.jpeg");
+	color:white;
+	flex:1;
+	font-family:Comic Sans MS;
+	justify-content:center;
+	align-items:center;
+	padding:100px;
+	font-size:35px;
+}
+
+nav a{
+	flex:1;
+	border-style: outset;
+	font-family:Comic Sans MS;
+	color:#198007;
+	text-decoration:none;
+	margin:10px
+}
+
+nav a{
+  border-radius: 25px;
+  background: #E3BF05;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+
+nav a:hover{
+	color:white;
+}
+
+
+#Top {
+ text-align:center;
+ font-family:Comic Sans Ms; 
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  height: 380px
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.desc{
+Color:white;		
+}
